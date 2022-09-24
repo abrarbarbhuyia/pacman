@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class PacManAnimationManager : MonoBehaviour
 {
-    public float changeTime = 3.0f;
-    public float currTime = 0.0f;
-    public int phase = 0;
+    public Animator pacStudentController;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,10 +27,14 @@ public class PacManAnimationManager : MonoBehaviour
         gameObject.transform.Rotate(0.0f, 0.0f, -90.0f);
         yield return new WaitForSeconds(3);
         gameObject.transform.Rotate(0.0f, 0.0f, 90.0f);
+        yield return new WaitForSeconds(3);
+        pacStudentController.SetBool("walkFinished", true);
+        yield return new WaitForSeconds(3);
     }
 
     // Update is called once per frame
     void Update()
     {
+
     }
 }
