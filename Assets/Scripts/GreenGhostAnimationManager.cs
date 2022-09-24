@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PacManAnimationManager : MonoBehaviour
+public class GreenGhostAnimationManager : MonoBehaviour
 {
-    public Animator pacStudentController;
+    public Animator greenGhostController;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(Phases());
     }
 
-    IEnumerator Phases() {
+    IEnumerator Phases()
+    {
         yield return new WaitForSeconds(3);
         gameObject.transform.Rotate(0.0f, 0.0f, 90.0f);
         yield return new WaitForSeconds(3);
@@ -26,14 +27,15 @@ public class PacManAnimationManager : MonoBehaviour
         gameObject.transform.Rotate(0.0f, 0.0f, -90.0f);
         yield return new WaitForSeconds(3);
         gameObject.transform.Rotate(0.0f, 0.0f, 90.0f);
-        yield return new WaitForSeconds(3);
-        pacStudentController.SetBool("walkFinished", true);
-        yield return new WaitForSeconds(3);
+        greenGhostController.SetBool("walkFinished", true);
+        greenGhostController.SetBool("scaredFinished", true);
+        greenGhostController.SetBool("recoveringFinished", true);
     }
+
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }

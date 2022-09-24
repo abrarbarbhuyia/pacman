@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 277f216bfb10c474aa3fc35b20ab81f2
+guid: 39793905e8c2941b8a4e956db1d42339
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scared State Ghost_0
+      name: Recovery State Ghost Animation_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,20 +120,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 505bfb1e0753647e38d1ab3ef2ab3f96
-      internalID: 1297829321
+      spriteID: b6394fe1e2c5b43eeb83702e1bbe3ff6
+      internalID: -1445641114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_1
+      name: Recovery State Ghost Animation_1
       rect:
         serializedVersion: 2
         x: 136
-        y: 836
+        y: 840
         width: 128
-        height: 104
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32ae645ae2ea94bd5bc3a8e22ed48766
-      internalID: -1767011070
+      spriteID: 57cb0bd86564b4843bcc6dc9d2ed82aa
+      internalID: -132904187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_2
+      name: Recovery State Ghost Animation_2
       rect:
         serializedVersion: 2
         x: 272
-        y: 836
+        y: 840
         width: 128
-        height: 104
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6574c73dc492542ceb8fc437ea3fa239
-      internalID: 345651690
+      spriteID: cfc7bc033e76a4b43baeac39ba328fb6
+      internalID: -1870278469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_3
+      name: Recovery State Ghost Animation_3
       rect:
         serializedVersion: 2
         x: 408
-        y: 832
+        y: 840
         width: 128
-        height: 108
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40d29bb376ae04d7884fc3c62490a82d
-      internalID: 1284635633
+      spriteID: fc7e076b172754b9ba970e8346634ba9
+      internalID: 1675927305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_4
+      name: Recovery State Ghost Animation_4
       rect:
         serializedVersion: 2
         x: 544
-        y: 832
+        y: 840
         width: 128
-        height: 108
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6297ee55e633c4046bfeb054d8787b27
-      internalID: -805987533
+      spriteID: 595720759cfa04289abe2285ad2a8f99
+      internalID: 900080967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_5
+      name: Recovery State Ghost Animation_5
       rect:
         serializedVersion: 2
         x: 680
-        y: 832
+        y: 840
         width: 128
-        height: 108
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,20 +225,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cee099457da89442c82fee75c1e0720d
-      internalID: 226629979
+      spriteID: 30b57fbf521a7466da404e8b250a80c5
+      internalID: -1035096039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_6
+      name: Recovery State Ghost Animation_6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 840
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0eeb899b6e204f47aa27b6f2798c569
+      internalID: 1850055441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recovery State Ghost Animation_7
       rect:
         serializedVersion: 2
         x: 0
-        y: 692
+        y: 704
         width: 128
-        height: 112
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +267,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f94105b0693d9465bb1b09d212407de7
-      internalID: -1001881069
+      spriteID: b3fba70a867e2483d86baed43463d0c9
+      internalID: -857471315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_7
+      name: Recovery State Ghost Animation_8
       rect:
         serializedVersion: 2
         x: 136
-        y: 688
+        y: 704
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,20 +288,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f50a4065a9da422bae08f5985f5919c
-      internalID: 695072304
+      spriteID: 40aa08418788e47c29f80d4709306a2c
+      internalID: -1818474138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_8
+      name: Recovery State Ghost Animation_9
       rect:
         serializedVersion: 2
         x: 272
-        y: 688
+        y: 704
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,20 +309,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96386f2c6405849bfb3f230450bb2570
-      internalID: -757353043
+      spriteID: 4e0afb30dbd9248b18a94b3ae75796b9
+      internalID: -908826246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_9
+      name: Recovery State Ghost Animation_10
       rect:
         serializedVersion: 2
         x: 408
-        y: 688
+        y: 704
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,20 +330,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9164934b9d36243e89b10c0b619c7e42
-      internalID: -780670350
+      spriteID: 5b43db9c6d636499ca8d04faea03b1fc
+      internalID: 1778317317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_10
+      name: Recovery State Ghost Animation_11
       rect:
         serializedVersion: 2
         x: 544
-        y: 688
+        y: 704
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,20 +351,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 464b85cc6b7174c97a214d11be86e25e
-      internalID: -1993820014
+      spriteID: 83bef4f2fee784ac58a54d68653d1b51
+      internalID: -126212576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_11
+      name: Recovery State Ghost Animation_12
       rect:
         serializedVersion: 2
         x: 680
-        y: 688
+        y: 704
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,20 +372,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18a017fddfff34f7c97a6e65b395a643
-      internalID: -1914503801
+      spriteID: 95eeb692dcec04fe6907ffea7b659915
+      internalID: -489561071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_12
+      name: Recovery State Ghost Animation_13
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 704
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e465366ac5d4449c863f1f628955c93
+      internalID: -489324143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recovery State Ghost Animation_14
       rect:
         serializedVersion: 2
         x: 0
-        y: 552
+        y: 568
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,20 +414,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 585e4ed5de5ea4f8ca231eeae4abdcfc
-      internalID: 1568867486
+      spriteID: 9dfc273e818004ee79d752faf64aeb23
+      internalID: -1014091655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_13
+      name: Recovery State Ghost Animation_15
       rect:
         serializedVersion: 2
         x: 136
-        y: 552
+        y: 568
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +435,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32ba01048dfee4ae796a1c0f49adea1e
-      internalID: 369039008
+      spriteID: a2bc66add62da42f4b34fdb518d2a80b
+      internalID: -1160172086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_14
+      name: Recovery State Ghost Animation_16
       rect:
         serializedVersion: 2
         x: 272
-        y: 552
+        y: 568
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,20 +456,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9841c01ac9a664872a5c7b65b2264dce
-      internalID: -143335648
+      spriteID: 1ba6c10bc448c42c59891286f538b3a2
+      internalID: 658975511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_15
+      name: Recovery State Ghost Animation_17
       rect:
         serializedVersion: 2
         x: 408
-        y: 552
+        y: 568
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,20 +477,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96f2c338261ad485dad06cc7f5e28067
-      internalID: -1835714959
+      spriteID: e4ac59d7356b14a1f80624284373a545
+      internalID: 1950342818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_16
+      name: Recovery State Ghost Animation_18
       rect:
         serializedVersion: 2
         x: 544
-        y: 552
+        y: 568
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,20 +498,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bcc1e2d53e75430a94dded5fb78e920
-      internalID: -646334546
+      spriteID: 8da39a65786c74ee3aeb4da37c99798b
+      internalID: -2083511849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_17
+      name: Recovery State Ghost Animation_19
       rect:
         serializedVersion: 2
         x: 680
-        y: 552
+        y: 568
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,20 +519,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09762ccdcd14a4311a3f32672da70677
-      internalID: 1366544075
+      spriteID: 6764137f22638454096034ef5082b90f
+      internalID: -963526519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_18
+      name: Recovery State Ghost Animation_20
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 568
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102b3a27015c64c6b9a87ead1603d7bc
+      internalID: 1935299867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recovery State Ghost Animation_21
       rect:
         serializedVersion: 2
         x: 0
-        y: 416
+        y: 432
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,20 +561,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ccd06f645f514087a775682f4ad1701
-      internalID: 348520219
+      spriteID: 9e6b53c9b5bb64bafb2dc23789809afa
+      internalID: -2027631507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_19
+      name: Recovery State Ghost Animation_22
       rect:
         serializedVersion: 2
         x: 136
-        y: 416
+        y: 432
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,20 +582,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d0c05ad1af5f4a77aecf83bca5d70bf
-      internalID: 2113684968
+      spriteID: 7d69c343c38fe4d62b05e2d1c4c71ca6
+      internalID: 525840201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_20
+      name: Recovery State Ghost Animation_23
       rect:
         serializedVersion: 2
         x: 272
-        y: 416
+        y: 432
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,20 +603,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3405363e4cdcf4941b61c7d6e73cdcae
-      internalID: -1805262848
+      spriteID: 3fb6e00258cb74771a6e64102d4a5245
+      internalID: -1278948515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_21
+      name: Recovery State Ghost Animation_24
       rect:
         serializedVersion: 2
         x: 408
-        y: 416
+        y: 432
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -561,20 +624,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e2054f5ddb3f428185d00f5a54301f1
-      internalID: -957538434
+      spriteID: 9d703880a381e4672be5b5b97f5877b1
+      internalID: 840347898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_22
+      name: Recovery State Ghost Animation_25
       rect:
         serializedVersion: 2
         x: 544
-        y: 416
+        y: 432
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,20 +645,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 873767ba604e347c697dc3cefdd25f05
-      internalID: -383947505
+      spriteID: 2ce4228d3d4d6484e9e15bf7980b6c12
+      internalID: -1778973082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_23
+      name: Recovery State Ghost Animation_26
       rect:
         serializedVersion: 2
         x: 680
-        y: 416
+        y: 432
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,20 +666,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4854c6b81ddc464583a17cfd031a2df
-      internalID: -187286534
+      spriteID: f1ec5cba9faba419692eb0a874aebb27
+      internalID: 654949795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_24
+      name: Recovery State Ghost Animation_27
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 432
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95182070343e7495ba8a588fc0271106
+      internalID: -2126404755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recovery State Ghost Animation_28
       rect:
         serializedVersion: 2
         x: 0
-        y: 280
+        y: 296
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,20 +708,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d064ce95ec0d1469c95a26eb4f97eabf
-      internalID: -152606193
+      spriteID: 46bf788d4eede4f309762d9cac7e9da3
+      internalID: 1499274474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_25
+      name: Recovery State Ghost Animation_29
       rect:
         serializedVersion: 2
         x: 136
-        y: 280
+        y: 296
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -645,20 +729,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3878bba39a8a4da3adc687e801b5f21
-      internalID: 1657790501
+      spriteID: b99f7ecefcd7b4c0a878703ef7d91a0c
+      internalID: -220401811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_26
+      name: Recovery State Ghost Animation_30
       rect:
         serializedVersion: 2
         x: 272
-        y: 280
+        y: 296
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,20 +750,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a6b25bea7b2142f8b762edfd193a89d
-      internalID: -1380180137
+      spriteID: 01d77bb22b80249528216c356a54294c
+      internalID: 1118229950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_27
+      name: Recovery State Ghost Animation_31
       rect:
         serializedVersion: 2
         x: 408
-        y: 280
+        y: 296
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -687,20 +771,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c8c69041e831457b8071a46a3dd4ccb
-      internalID: -229784492
+      spriteID: 4b2710e3ab00a49ac90a5ad96d2c956e
+      internalID: 1386383876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_28
+      name: Recovery State Ghost Animation_32
       rect:
         serializedVersion: 2
         x: 544
-        y: 280
+        y: 296
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -708,20 +792,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce66f8f8a529e4e8b9b9c0b09414be89
-      internalID: 835962296
+      spriteID: 345853fac33bb41ed98f40fe77825d98
+      internalID: 274558317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_29
+      name: Recovery State Ghost Animation_33
       rect:
         serializedVersion: 2
         x: 680
-        y: 280
+        y: 296
         width: 128
-        height: 116
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -729,20 +813,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc0c3599d69c940bca7525e3873fef67
-      internalID: -1802298650
+      spriteID: 9c2d84e4a79eb4ecabe0cb9aac441057
+      internalID: -1557177041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_30
+      name: Recovery State Ghost Animation_34
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 296
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3582abd99b5644704b60274fb15bec8c
+      internalID: -1554641407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recovery State Ghost Animation_35
       rect:
         serializedVersion: 2
         x: 0
-        y: 148
+        y: 160
         width: 128
-        height: 112
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bcb183e174d14772997047edf26edff
-      internalID: -699018848
+      spriteID: 38813ff139eb0446883dff620a862dd1
+      internalID: -739018468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_31
+      name: Recovery State Ghost Animation_36
       rect:
         serializedVersion: 2
         x: 136
-        y: 148
+        y: 160
         width: 128
-        height: 112
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -771,20 +876,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 328acac2549734514ac4086de207fcee
-      internalID: 439001224
+      spriteID: 3a6fe1504c20e4bafa6714d216fcc37f
+      internalID: -1878941431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_32
+      name: Recovery State Ghost Animation_37
       rect:
         serializedVersion: 2
         x: 272
-        y: 152
+        y: 160
         width: 128
-        height: 108
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -792,14 +897,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71a97fcaed74e4e3eae5f20061013122
-      internalID: 211637957
+      spriteID: f18bca01158fc4384ab99181148779d9
+      internalID: -2132981081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_33
+      name: Recovery State Ghost Animation_38
       rect:
         serializedVersion: 2
         x: 408
@@ -813,17 +918,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4550e3962335c4900b82cd0ccea02505
-      internalID: 105071642
+      spriteID: 34d1b6398379240638a01009a5cb97ce
+      internalID: 1455402570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_34
+      name: Recovery State Ghost Animation_39
       rect:
         serializedVersion: 2
-        x: 548
+        x: 544
         y: 160
         width: 128
         height: 100
@@ -834,14 +939,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b604ddfb2ba64f758fc584d72f2aeb7
-      internalID: 151425484
+      spriteID: 34fbc5b3d872a4d1d85caaf522afd827
+      internalID: 541421697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_35
+      name: Recovery State Ghost Animation_40
       rect:
         serializedVersion: 2
         x: 680
@@ -855,14 +960,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 668824358fb1846d4b88e099e88f58b8
-      internalID: 391149804
+      spriteID: 0e99cc8808c0d4daa8dd7e6be1cd3992
+      internalID: 732524796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_36
+      name: Recovery State Ghost Animation_41
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 160
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f24d6b122f5e49f2914e6a973c47d7d
+      internalID: 42307770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recovery State Ghost Animation_42
       rect:
         serializedVersion: 2
         x: 0
@@ -876,14 +1002,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 396ff0386c0b84bd78be814a6b3f60d2
-      internalID: -830597244
+      spriteID: 30b2fb165031d4781b611ab23ce11588
+      internalID: -2020336052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_37
+      name: Recovery State Ghost Animation_43
       rect:
         serializedVersion: 2
         x: 136
@@ -897,14 +1023,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c9dbd21c643a45d09bbff7b4a15a18c
-      internalID: 1472213047
+      spriteID: 93711d6e5acbf4275b93461d5ebca009
+      internalID: -1382638188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_38
+      name: Recovery State Ghost Animation_44
       rect:
         serializedVersion: 2
         x: 272
@@ -918,14 +1044,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1b5d468315b54a839c07b2240fd7871
-      internalID: -530115390
+      spriteID: f11aefdfe440f40ef85e0b1e9e1b4ef1
+      internalID: 1446443991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_39
+      name: Recovery State Ghost Animation_45
       rect:
         serializedVersion: 2
         x: 408
@@ -939,14 +1065,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 370fe77c1d110407e8d3c2616f55133d
-      internalID: -224749642
+      spriteID: ef73c0a108a6b41198e172dbeb755add
+      internalID: -1566653627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scared State Ghost_40
+      name: Recovery State Ghost Animation_46
       rect:
         serializedVersion: 2
         x: 544
@@ -960,8 +1086,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93b47f53d537043c7a14c55bf920792e
-      internalID: 1983570284
+      spriteID: 3509e6a61d68e4da38462b425b097ef1
+      internalID: -1932700420
       vertices: []
       indices: 
       edges: []
@@ -977,47 +1103,53 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Scared State Ghost_21: -957538434
-      Scared State Ghost_20: -1805262848
-      Scared State Ghost_22: -383947505
-      Scared State Ghost_33: 105071642
-      Scared State Ghost_31: 439001224
-      Scared State Ghost_25: 1657790501
-      Scared State Ghost_37: 1472213047
-      Scared State Ghost_1: -1767011070
-      Scared State Ghost_30: -699018848
-      Scared State Ghost_32: 211637957
-      Scared State Ghost_0: 1297829321
-      Scared State Ghost_9: -780670350
-      Scared State Ghost_10: -1993820014
-      Scared State Ghost_17: 1366544075
-      Scared State Ghost_34: 151425484
-      Scared State Ghost_16: -646334546
-      Scared State Ghost_28: 835962296
-      Scared State Ghost_35: 391149804
-      Scared State Ghost_11: -1914503801
-      Scared State Ghost_39: -224749642
-      Scared State Ghost_19: 2113684968
-      Scared State Ghost_29: -1802298650
-      Scared State Ghost_36: -830597244
-      Scared State Ghost_40: 1983570284
-      Scared State Ghost_8: -757353043
-      Scared State Ghost_18: 348520219
-      Scared State Ghost_38: -530115390
-      Scared State Ghost_24: -152606193
-      Scared State Ghost_13: 369039008
-      Scared State Ghost_27: -229784492
-      Scared State Ghost_26: -1380180137
-      Scared State Ghost_3: 1284635633
-      Scared State Ghost_7: 695072304
-      Scared State Ghost_5: 226629979
-      Scared State Ghost_23: -187286534
-      Scared State Ghost_2: 345651690
-      Scared State Ghost_15: -1835714959
-      Scared State Ghost_6: -1001881069
-      Scared State Ghost_12: 1568867486
-      Scared State Ghost_4: -805987533
-      Scared State Ghost_14: -143335648
+      Recovery State Ghost Animation_5: -1035096039
+      Recovery State Ghost Animation_46: -1932700420
+      Recovery State Ghost Animation_45: -1566653627
+      Recovery State Ghost Animation_6: 1850055441
+      Recovery State Ghost Animation_31: 1386383876
+      Recovery State Ghost Animation_35: -739018468
+      Recovery State Ghost Animation_9: -908826246
+      Recovery State Ghost Animation_33: -1557177041
+      Recovery State Ghost Animation_13: -489324143
+      Recovery State Ghost Animation_43: -1382638188
+      Recovery State Ghost Animation_11: -126212576
+      Recovery State Ghost Animation_27: -2126404755
+      Recovery State Ghost Animation_41: 42307770
+      Recovery State Ghost Animation_40: 732524796
+      Recovery State Ghost Animation_15: -1160172086
+      Recovery State Ghost Animation_22: 525840201
+      Recovery State Ghost Animation_10: 1778317317
+      Recovery State Ghost Animation_28: 1499274474
+      Recovery State Ghost Animation_12: -489561071
+      Recovery State Ghost Animation_19: -963526519
+      Recovery State Ghost Animation_39: 541421697
+      Recovery State Ghost Animation_20: 1935299867
+      Recovery State Ghost Animation_23: -1278948515
+      Recovery State Ghost Animation_44: 1446443991
+      Recovery State Ghost Animation_21: -2027631507
+      Recovery State Ghost Animation_34: -1554641407
+      Recovery State Ghost Animation_30: 1118229950
+      Recovery State Ghost Animation_0: -1445641114
+      Recovery State Ghost Animation_16: 658975511
+      Recovery State Ghost Animation_36: -1878941431
+      Recovery State Ghost Animation_37: -2132981081
+      Recovery State Ghost Animation_8: -1818474138
+      Recovery State Ghost Animation_2: -1870278469
+      Recovery State Ghost Animation_18: -2083511849
+      Recovery State Ghost Animation_25: -1778973082
+      Recovery State Ghost Animation_32: 274558317
+      Recovery State Ghost Animation_1: -132904187
+      Recovery State Ghost Animation_4: 900080967
+      Recovery State Ghost Animation_7: -857471315
+      Recovery State Ghost Animation_42: -2020336052
+      Recovery State Ghost Animation_24: 840347898
+      Recovery State Ghost Animation_38: 1455402570
+      Recovery State Ghost Animation_14: -1014091655
+      Recovery State Ghost Animation_26: 654949795
+      Recovery State Ghost Animation_3: 1675927305
+      Recovery State Ghost Animation_17: 1950342818
+      Recovery State Ghost Animation_29: -220401811
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
