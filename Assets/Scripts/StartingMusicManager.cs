@@ -22,6 +22,7 @@ public class StartingMusicManager : MonoBehaviour
         if (!introMusicSource.isPlaying && !isPlayingNormalState) {
             normalStateMusicSource.clip = normalStateMusic;
             normalStateMusicSource.Play();
+            normalStateMusicSource.volume = 0.33f;
             normalStateMusicSource.loop = true;
             isPlayingNormalState = true;
         }
