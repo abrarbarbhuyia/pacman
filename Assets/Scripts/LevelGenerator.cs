@@ -46,15 +46,15 @@ public class LevelGenerator : MonoBehaviour
     void CreateMap() {
         for (int col = 0; col < levelMap.GetLength(0) - 1; col++) {
             for (int row = 0; row < levelMap.GetLength(1) - 1; row++) {
-                Vector3 position = new Vector3(xCoordLeft[col], yCoordTop[row], 0);
+                Vector3 position = new Vector3(xCoordLeft[col] -0.5f, yCoordTop[row] + 1.4f, 0);
                 Vector3 positionTopRight = new Vector3(xCoordRight[col], yCoordTop[row], 0);
                 Vector3 positionBottomRight = new Vector3(xCoordRight[col], yCoordBottom[row], 0);
                 Vector3 positionBottomLeft = new Vector3(xCoordLeft[col], yCoordBottom[row], 0);
 
                 // Finding appropriate rotation
-                
 
-                Quaternion rotation = new Quaternion();
+
+                Quaternion rotation = new Quaternion(0, 90f, 0, 0);
                 if (levelMap[col, row] == 1)
                 {
                     // Top left
@@ -71,21 +71,54 @@ public class LevelGenerator : MonoBehaviour
                     // Top left
                     Instantiate(outsideWall, position, rotation);
                     // Top right
+                    Instantiate(outsideWall, positionTopRight, rotation);
+                    // Bottom right
+                    Instantiate(outsideWall, positionBottomRight, rotation);
+                    // Bottom left
+                    Instantiate(outsideWall, positionBottomLeft, rotation);
                 }
                 else if (levelMap[col, row] == 3)
                 {
+                    // Top left
                     Instantiate(insideCorner, position, rotation);
+                    // Top right
+                    Instantiate(insideCorner, positionTopRight, rotation);
+                    // Bottom right
+                    Instantiate(insideCorner, positionBottomRight, rotation);
+                    // Bottom left
+                    Instantiate(insideCorner, positionBottomLeft, rotation);
                 }
                 else if (levelMap[col, row] == 4)
                 {
+                    // Top left
                     Instantiate(insideWall, position, rotation);
+                    // Top right
+                    Instantiate(insideWall, positionTopRight, rotation);
+                    // Bottom right
+                    Instantiate(insideWall, positionBottomRight, rotation);
+                    // Bottom left
+                    Instantiate(insideWall, positionBottomLeft, rotation);
                 }
                 else if (levelMap[col, row] == 5)
                 {
+                    // Top left
                     Instantiate(standardPellet, position, rotation);
+                    // Top right
+                    Instantiate(standardPellet, positionTopRight, rotation);
+                    // Bottom right
+                    Instantiate(standardPellet, positionBottomRight, rotation);
+                    // Bottom left
+                    Instantiate(standardPellet, positionBottomLeft, rotation);
                 }
                 else if (levelMap[col, row] == 6) {
+                    // Top left
                     Instantiate(powerPellet, position, rotation);
+                    // Top right
+                    Instantiate(powerPellet, positionTopRight, rotation);
+                    // Bottom right
+                    Instantiate(powerPellet, positionBottomRight, rotation);
+                    // Bottom left
+                    Instantiate(powerPellet, positionBottomLeft, rotation);
                 }
             }
         }

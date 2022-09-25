@@ -1061,13 +1061,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a521605e5abb4d968e9ba0947c0c845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outsideCorner: {fileID: 0}
-  outsideWall: {fileID: 0}
-  insideCorner: {fileID: 0}
-  insideWall: {fileID: 0}
-  standardPellet: {fileID: 0}
-  powerPellet: {fileID: 0}
-  junctionPiece: {fileID: 0}
+  outsideCorner: {fileID: 14629123557946189, guid: 1e72f1a27e4b04140aba68d8d67c4697, type: 3}
+  outsideWall: {fileID: 5152253164341423850, guid: 1b7300f1e3a444037b8578cb93e823cd, type: 3}
+  insideCorner: {fileID: 5352352484634420221, guid: 9d597f8424e724d48a3519b1b1c0f989, type: 3}
+  insideWall: {fileID: 909039367804385054, guid: 910b270b6208c48c5a03214c7bd07871, type: 3}
+  standardPellet: {fileID: 5875320367071615383, guid: 123b202285c3a472cbc0b68ff482097d, type: 3}
+  powerPellet: {fileID: 408692143874260083, guid: a401a18005abe403b8f7ae6f778c5b24, type: 3}
+  junctionPiece: {fileID: 6065910603659868491, guid: e9714f1904378449fa63d90ea674d3a1, type: 3}
 --- !u!4 &854931669
 Transform:
   m_ObjectHideFlags: 0
