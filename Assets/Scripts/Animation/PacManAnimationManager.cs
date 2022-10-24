@@ -9,13 +9,6 @@ public class PacManAnimationManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (isMoving == false)
-        {
-            StartCoroutine(Phases());
-        }
-        else {
-            StartCoroutine(MovingPhases());
-        }
     }
 
     IEnumerator Phases() {
