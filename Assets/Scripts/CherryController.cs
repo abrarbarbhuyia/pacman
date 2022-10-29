@@ -36,7 +36,6 @@ public class CherryController : MonoBehaviour
         // take 5 seconds to cross the screen
         float time = 3;
         // setting y value 
-        Debug.Log(y);
         float yValue = 0;
         if (y == 21)
         {
