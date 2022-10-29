@@ -13,6 +13,7 @@ public class PacStudentAudioManager : MonoBehaviour
     public AudioClip eatSound;
     public bool isChanged = false;
     public bool isPlaying = false;
+    public Tilemap pathMap;
     // Start is called before the first frame update
     void Start()
     {
@@ -61,13 +62,13 @@ public class PacStudentAudioManager : MonoBehaviour
     }
 
     private bool isCurrentFood() {
-        if (pacStudentController.map.GetTile(pacStudentController.map.WorldToCell(pacStudentController.gameObject.transform.position)) == null) {
+        if (pacStudentController.pathMap.GetTile(pacStudentController.pathMap.WorldToCell(pacStudentController.gameObject.transform.position)) == null) {
             return false;
         }
         
 
-        if (pacStudentController.map.GetTile(pacStudentController.map.WorldToCell(pacStudentController.gameObject.transform.position)).name == "5"
-            || pacStudentController.map.GetTile(pacStudentController.map.WorldToCell(pacStudentController.gameObject.transform.position)).name == "6")
+        if (pacStudentController.pathMap.GetTile(pacStudentController.pathMap.WorldToCell(pacStudentController.gameObject.transform.position)).name == "5"
+            || pacStudentController.pathMap.GetTile(pacStudentController.pathMap.WorldToCell(pacStudentController.gameObject.transform.position)).name == "6")
         {
             return true;
         }
@@ -80,7 +81,7 @@ public class PacStudentAudioManager : MonoBehaviour
 
     private bool isFood() {
         Vector3 currentDirection = pacStudentController.getCurrentDirection();
-        TileBase nextTile = pacStudentController.map.GetTile(pacStudentController.map.WorldToCell(pacStudentController.gameObject.transform.position + currentDirection));
+        TileBase nextTile = pacStudentController.pathMap.GetTile(pacStudentController.pathMap.WorldToCell(pacStudentController.gameObject.transform.position + currentDirection));
         if (nextTile == null)
         {
             return false;
