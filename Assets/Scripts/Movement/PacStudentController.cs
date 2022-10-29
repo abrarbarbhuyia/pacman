@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 public class PacStudentController : MonoBehaviour
 {
-    private float moveSpeed = 0.166f;
+    private float moveSpeed = 0.2f;
     public bool isMoving;
     private KeyCode lastInput;
     public KeyCode currentInput;
@@ -172,7 +172,7 @@ public class PacStudentController : MonoBehaviour
     }
 
     // checking if pacstudent.transform.position + direction.name == 1, 2, 3, 4, 7 
-    private bool isNotWall(Vector3 position, Vector3 direction) {
+    public bool isNotWall(Vector3 position, Vector3 direction) {
         if (map.GetTile(map.WorldToCell(position + direction)).name == "1" ||
             map.GetTile(map.WorldToCell(position + direction)).name == "2" ||
             map.GetTile(map.WorldToCell(position + direction)).name == "3" ||
@@ -202,13 +202,5 @@ public class PacStudentController : MonoBehaviour
         isMoving = false;
         yield return 0;
     }
-
-    // function to grab next tile in direction
-    private Tile GetNextTile(Vector3 direction)
-    {
-        Vector3Int nextTilePos = map.WorldToCell(gameObject.transform.position + direction);
-        return map.GetTile<Tile>(nextTilePos);
-    }
-
-
+    
 }
