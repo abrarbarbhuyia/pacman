@@ -10,7 +10,7 @@ using UnityEngine.Tilemaps;
 public class PacStudentController : MonoBehaviour
 {
     public GameObject PacStudent;
-    private float moveSpeed = 0.2f;
+    private float moveSpeed = 0.166f;
     bool isMoving;
     private KeyCode lastInput;
     public KeyCode currentInput;
@@ -24,19 +24,19 @@ public class PacStudentController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKey(KeyCode.W) && !isMoving)
+        if (Input.GetKey(KeyCode.W))
         {
             lastInput = KeyCode.W;
         }
-        if (Input.GetKey(KeyCode.A) && !isMoving)
+        if (Input.GetKey(KeyCode.A))
         {
             lastInput = KeyCode.A;
         }
-        if (Input.GetKey(KeyCode.S) && !isMoving)
+        if (Input.GetKey(KeyCode.S))
         {
             lastInput = KeyCode.S;
         }
-        if (Input.GetKey(KeyCode.D) && !isMoving)
+        if (Input.GetKey(KeyCode.D))
         {
             lastInput = KeyCode.D;
         }
@@ -45,6 +45,7 @@ public class PacStudentController : MonoBehaviour
         {
             if (lastInput == KeyCode.W)
             {
+                // Checking if we can move based on last input
                 if (map.GetTile(map.WorldToCell(PacStudent.transform.position + Vector3.up)) == null)
                 {
                     currentInput = lastInput;
@@ -56,9 +57,17 @@ public class PacStudentController : MonoBehaviour
                     StartCoroutine(MoveGridPosition(Vector3.up));
 
                 }
+                // if not we try to move with current input
                 else {
-                    // Vector3 currentDirection = getCurrentDirection();
-                    
+                    Vector3 currentDirection = getCurrentDirection();
+                    if (map.GetTile(map.WorldToCell(PacStudent.transform.position + currentDirection)) == null)
+                    {
+                        StartCoroutine(MoveGridPosition(currentDirection));
+                    }
+                    else if (isNotWall(PacStudent.transform.position, currentDirection))
+                    {
+                        StartCoroutine(MoveGridPosition(currentDirection));
+                    }
                 }
             }
             if (lastInput == KeyCode.A)
@@ -74,6 +83,20 @@ public class PacStudentController : MonoBehaviour
                     StartCoroutine(MoveGridPosition(Vector3.left));
 
                 }
+                else
+                {
+                    
+                    Vector3 currentDirection = getCurrentDirection();
+                    // try to move in currentdirection
+                    if (map.GetTile(map.WorldToCell(PacStudent.transform.position + currentDirection)) == null)
+                    {
+                        StartCoroutine(MoveGridPosition(currentDirection));
+                    }
+                    else if (isNotWall(PacStudent.transform.position, currentDirection))
+                    {
+                        StartCoroutine(MoveGridPosition(currentDirection));
+                    }
+                }
             }
             if (lastInput == KeyCode.S)
             {
@@ -87,6 +110,19 @@ public class PacStudentController : MonoBehaviour
                     currentInput = lastInput;
                     StartCoroutine(MoveGridPosition(Vector3.down));
 
+                }
+                else
+                {
+                    
+                    Vector3 currentDirection = getCurrentDirection();
+                    if (map.GetTile(map.WorldToCell(PacStudent.transform.position + currentDirection)) == null)
+                    {
+                        StartCoroutine(MoveGridPosition(currentDirection));
+                    }
+                    else if (isNotWall(PacStudent.transform.position, currentDirection))
+                    {
+                        StartCoroutine(MoveGridPosition(currentDirection));
+                    }
                 }
             }
             if (lastInput == KeyCode.D)
@@ -102,12 +138,46 @@ public class PacStudentController : MonoBehaviour
                     StartCoroutine(MoveGridPosition(Vector3.right));
 
                 }
+                else
+                {
+                    
+                    Vector3 currentDirection = getCurrentDirection();
+                    if (map.GetTile(map.WorldToCell(PacStudent.transform.position + currentDirection)) == null)
+                    {
+                        StartCoroutine(MoveGridPosition(currentDirection));
+                    }
+                    else if (isNotWall(PacStudent.transform.position, currentDirection))
+                    {
+                        StartCoroutine(MoveGridPosition(currentDirection));
+                    }
+                }
             }
         }
     }
 
+    // getting current direction based on keycode and return a vector3
+    private Vector3 getCurrentDirection()
+    {
+        if (currentInput == KeyCode.W)
+        {
+            return Vector3.up;
+        }
+        if (currentInput == KeyCode.A)
+        {
+            return Vector3.left;
+        }
+        if (currentInput == KeyCode.S)
+        {
+            return Vector3.down;
+        }
+        if (currentInput == KeyCode.D)
+        {
+            return Vector3.right;
+        } 
+        return Vector3.zero;
+    }
 
-    // check if pacstudent.transform.position + direction.name == 1, 2, 3, 4, 7 
+    // checking if pacstudent.transform.position + direction.name == 1, 2, 3, 4, 7 
     private bool isNotWall(Vector3 position, Vector3 direction) {
         if (map.GetTile(map.WorldToCell(position + direction)).name == "1" ||
             map.GetTile(map.WorldToCell(position + direction)).name == "2" ||
@@ -124,7 +194,6 @@ public class PacStudentController : MonoBehaviour
 
     }
 
-    // Credit: Author: Comp-3 Interactive. Date: Sep 12, 2020. Link: https://www.youtube.com/watch?v=AiZ4z4qKy44
     private IEnumerator MoveGridPosition(Vector3 direction) {
         isMoving = true;
         float elapsed = 0;
