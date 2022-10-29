@@ -34,8 +34,8 @@ public class CherryController : MonoBehaviour
     {
         float elapsedTime = 0;
         // take 5 seconds to cross the screen
-        float time = 3;
-        // setting y value 
+        float time = 6.5f;
+        // setting y value based on where the other y value is, to make it cross the centre
         float yValue = 0;
         if (y == 21)
         {
