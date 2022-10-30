@@ -23,16 +23,18 @@ public class WallCollisionHandler : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Vector3Int tilePosition = pacStudentController.wallMap.WorldToCell(collision.transform.position);
-        StartCoroutine(InstantiateParticleEffect(tilePosition));
-        audioSource.pitch = 1f;
-        audioSource.clip = wallClip;
-        // stop switch clip coroutine
-        if (pacStudentAudioManager.isPlaying == true)
-        {
-            StopCoroutine("SwitchAudioClip()");
+        if (collision.CompareTag("PacStudent")) {
+            Vector3Int tilePosition = pacStudentController.wallMap.WorldToCell(collision.transform.position);
+            StartCoroutine(InstantiateParticleEffect(tilePosition));
+            audioSource.pitch = 1f;
+            audioSource.clip = wallClip;
+            // stop switch clip coroutine
+            if (pacStudentAudioManager.isPlaying == true)
+            {
+                StopCoroutine("SwitchAudioClip()");
+            }
+            StartCoroutine(PlayWallClip());
         }
-        StartCoroutine(PlayWallClip());
     }
 
     IEnumerator PlayWallClip()
