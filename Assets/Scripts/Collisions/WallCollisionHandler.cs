@@ -26,7 +26,6 @@ public class WallCollisionHandler : MonoBehaviour
         StartCoroutine(InstantiateParticleEffect());
         audioSource.pitch = 1f;
         audioSource.clip = wallClip;
-        // stop switch clip coroutine
         if (pacStudentAudioManager.isPlaying == true)
         {
             StopCoroutine("SwitchAudioClip()");
@@ -43,7 +42,8 @@ public class WallCollisionHandler : MonoBehaviour
 
     IEnumerator InstantiateParticleEffect()
     {
-        Instantiate(wallHitParticle, pacStudentController.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(wallHitParticle.main.duration);
+        var tempParticle = Instantiate(wallHitParticle, pacStudentController.transform.position, Quaternion.identity);
+        yield return new WaitForSeconds(tempParticle.main.duration);
+        Destroy(tempParticle.gameObject);
     }
 }
