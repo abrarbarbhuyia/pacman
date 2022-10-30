@@ -23,9 +23,11 @@ public class WallCollisionHandler : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        StartCoroutine(InstantiateParticleEffect());
+        Vector3Int tilePosition = pacStudentController.wallMap.WorldToCell(collision.transform.position);
+        StartCoroutine(InstantiateParticleEffect(tilePosition));
         audioSource.pitch = 1f;
         audioSource.clip = wallClip;
+        // stop switch clip coroutine
         if (pacStudentAudioManager.isPlaying == true)
         {
             StopCoroutine("SwitchAudioClip()");
@@ -40,10 +42,10 @@ public class WallCollisionHandler : MonoBehaviour
         yield return new WaitForSeconds(wallClip.length);
     }
 
-    IEnumerator InstantiateParticleEffect()
+    IEnumerator InstantiateParticleEffect(Vector3 tilePostition)
     {
-        var tempParticle = Instantiate(wallHitParticle, pacStudentController.transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(tempParticle.main.duration);
-        Destroy(tempParticle.gameObject);
+        var temp = Instantiate(wallHitParticle, tilePostition, Quaternion.identity);
+        yield return new WaitForSeconds(wallHitParticle.main.duration);
+        Destroy(temp.gameObject);
     }
 }
