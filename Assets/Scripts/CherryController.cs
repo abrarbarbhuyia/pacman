@@ -163,13 +163,15 @@ public class CherryController : MonoBehaviour
 
 
 
-        while (elapsedTime < time)
+        while (elapsedTime < time && temp != null)
         {
             temp.transform.position = Vector3.Lerp(new Vector3(x, y, 0), new Vector3(9, yValue, 0), (elapsedTime / time));
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        Destroy(temp);
+        if (temp != null) {
+            Destroy(temp);
+        }
     }
 
 }
