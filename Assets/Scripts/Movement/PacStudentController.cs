@@ -12,7 +12,6 @@ public class PacStudentController : MonoBehaviour
     public KeyCode currentInput;
     public Tilemap wallMap;
     public Tilemap pathMap;
-    public ParticleSystem walkingEffect;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,14 +21,6 @@ public class PacStudentController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        
-        // if walking instantiate walking effect otherwise destroy it
-        if (isMoving)
-        {
-            StartCoroutine(PlayWalkingEffect());
-        }
-
-
 
         if (Input.GetKey(KeyCode.W))
         {
@@ -160,14 +151,6 @@ public class PacStudentController : MonoBehaviour
                 }
             }
         }
-    }
-
-    // coroutine to make walking effect for 2 seconds
-    IEnumerator PlayWalkingEffect()
-    {
-        var temp = Instantiate(walkingEffect, transform.position - new Vector3(0, 0.4f, 0), Quaternion.identity);
-        yield return new WaitForSeconds(1);
-        Destroy(temp);
     }
 
     // getting current direction based on keycode and return a vector3

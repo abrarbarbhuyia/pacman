@@ -1826,7 +1826,6 @@ MonoBehaviour:
   currentInput: 0
   wallMap: {fileID: 1474758293}
   pathMap: {fileID: 1729285552}
-  walkingEffect: {fileID: 6473511524050777408, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
 --- !u!114 &988543735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2003,6 +2002,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!4 &988543743 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6205461349239699561, guid: 908e971a29f424b719cb7186f9a94ce6, type: 3}
+  m_PrefabInstance: {fileID: 6205461349389874466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &988543744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12938,6 +12942,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563773953}
   m_CullTransparentMesh: 1
+--- !u!4 &1577199316 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+  m_PrefabInstance: {fileID: 1673366443}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1645757689
 GameObject:
   m_ObjectHideFlags: 0
@@ -13040,6 +13049,65 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1001 &1673366443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 988543743}
+    m_Modifications:
+    - target: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473511524050777409, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473511524050777410, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
+      propertyPath: m_Name
+      value: Walking Particle Effect
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 03f90dabe09558c4692a29ae164f906b, type: 3}
 --- !u!1 &1729285549
 GameObject:
   m_ObjectHideFlags: 0
@@ -28754,7 +28822,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6205461349239699566, guid: 908e971a29f424b719cb7186f9a94ce6, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6205461349239699561, guid: 908e971a29f424b719cb7186f9a94ce6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1577199316}
   m_SourcePrefab: {fileID: 100100000, guid: 908e971a29f424b719cb7186f9a94ce6, type: 3}
 --- !u!1001 &6775316413675708575
 PrefabInstance:
