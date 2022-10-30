@@ -49,10 +49,9 @@ public class PacStudentAudioManager : MonoBehaviour
             StartCoroutine(SwitchAudioClip(walkSound));
         }
 
-
     }
 
-    IEnumerator SwitchAudioClip(AudioClip clip)
+    public IEnumerator SwitchAudioClip(AudioClip clip)
     {
         isPlaying = true;
         audioSource.clip = clip;

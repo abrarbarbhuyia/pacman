@@ -200,6 +200,7 @@ public class PacStudentController : MonoBehaviour
             elapsed += Time.deltaTime;
             yield return null;
         }
+        // wait for while loop to be finished
         isMoving = false;
         yield return 0;
     }
